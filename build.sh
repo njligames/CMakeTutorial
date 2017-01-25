@@ -10,4 +10,5 @@ make install
 
 ctest ..
 
-
+cpack .. --config CPackConfig.cmake
+cpack .. --config CPackSourceConfig.cmake
